@@ -1,0 +1,4 @@
+integration_name: com.cmccarthy.pipinventory
+instances:
+  - name: pip1 
+    command: inventory

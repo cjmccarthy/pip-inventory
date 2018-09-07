@@ -1,0 +1,11 @@
+name: com.cmccarthy.pipinventory
+protocol_version: 1
+description: Add config files as NR Inventory
+os: linux
+commands:
+  inventory:
+    command:
+      - bash
+      - /var/db/newrelic-infra/custom-integrations/runpip.sh 
+      - cmccarthy
+    prefix: python/modules
